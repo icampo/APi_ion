@@ -34,4 +34,6 @@ class User extends Authenticatable
 
         return $this->api_token;
     }
+
+    
 }

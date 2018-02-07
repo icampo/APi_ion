@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post(register, 'Auth\RegisterController@register');
+Route::post('login', 'Auth\LoginController@login');
